@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Sederhana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav {
+            background-color: #000000;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+            border: 2px solid #ddd;
+        }
+        .gallery img:hover {
+            border-color: #000000;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #000000;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>Profil Website</div>
+        <div>
+            <a href="#home">Home</a>
+            <a href="#profil">Profil</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <div class="container" id="home">
+        <h1>Welcome to My Personal Website!</h1>
+        <p>Hello, I am Muhammad Zidan Ibrahim. Here you can find more about me, my biodata, and my work. Thank you for visiting!.</p>
+    </div>
+    <div class="container" id="profil">
+        <h2> My Profil</h2>
+        <p>Name: Muhammad Zidan Ibrahim</p>
+        <p><strong>Place and Date of Birth:</strong> Serang, 09-08-2005</p>
+                        <p><strong>Gender:</strong> male</p>
+                        <p><strong>Religion:</strong> Islam</p>
+                        <p><strong>Hobbies:</strong> Traveling, Gym, Motorbike Costumes,</p>
+                        <p><strong>Skills:</strong> HTML and CSS</p>
+                        <p><strong>WhatsApp:</strong> <a href="tel:+62881011873818">+62 812-8197----</a></p>
+                        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/zziii_dann/profilecard/?igsh=b2o5ajl4dG95azZ4">zziii_dann</a></p>
+                        <p><strong>TikTok:</strong> <a href="https://www.tiktok.com/@secret00925?_t=8rigf3EvaR0&_r=1">secret00925</a></p>
+        <p>Description: I am a STTIKOM insan unggul student majoring in Informatics Engineering, 3rd semester, I also have soft skills in the electrical field because previously I was from a vocational high school (SMK). After I studied at college, now I have skills in the computer field.</p>
+    </div>
+    <div class="container" id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="foto/Profil Sederhana_files/1.jpg" alt="Picture 1">
+            <img src="foto/Profil Sederhana_files/2.jpg" alt="Picture 2">
+            <img src="foto/Profil Sederhana_files/3.jpg" alt="Picture 3">
+            <img src="foto/Profil Sederhana_files/4.jpg" alt="Picture 4">
+            <img src="foto/Profil Sederhana_files/5.jpg" alt="Picture 5">
+            <img src="foto/Profil Sederhana_files/6.jpg" alt="Picture 6">
+            <img src="foto/Profil Sederhana_files/7.jpg" alt="Picture 7">
+            <img src="foto/Profil Sederhana_files/8.jpg" alt="Picture 8">
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <h2>Form Contact</h2>
+        <form action="#" method="POST">
+            <input type="text" name="nama" placeholder="Nama Anda" required>
+            <input type="email" name="email" placeholder="Email Anda" required>
+            <textarea name="pesan" rows="5" placeholder="Pesan Anda" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+</body>
+</html>
